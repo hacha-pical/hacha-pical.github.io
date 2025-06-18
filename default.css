@@ -14,10 +14,6 @@ body {
     line-height: 1.8em;
 }
         
-code {
-    background: white;
-}
-
 a {
     border-bottom: 1px solid #444444; 
     color: #444444; 
@@ -52,4 +48,28 @@ main {
 
 footer {
     flex: 0;    
+}
+
+.swiper {
+    width: 100%;
+    
+}
+
+nav {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.7em;
+}
+
+nav a {    
+    border: 0;
+}
+
+nav a:hover {
+    color: #1E90FF;
+}
+
+.spacer {
+    width: 4em;
+    display: inline-block;
 }
