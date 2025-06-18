@@ -1,3 +1,15 @@
+:root {
+    --cl-page-bg: #D7D7D7;
+    --cl-text: #444444;
+    --cl-highlight: #1E90FF;
+}
+
+.dark-mode {
+    --cl-page-bg: #444444;
+    --cl-text: #D7D7D7;
+    --cl-highlight: #1E90FF;
+}
+
 html, body {
     min-height: 100vh;
     display: flex;
@@ -7,16 +19,19 @@ html, body {
 
 body {  
     text-align: center;
-    background: #D7D7D7; 
-    color: #444444; 
+    background: var(--cl-page-bg);
+    color: var(--cl-text); 
     font-family: monospace; 
     font-size: 1.6em; 
     line-height: 1.8em;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;    
 }
         
 a {
-    border-bottom: 1px solid #444444; 
-    color: #444444; 
+    border-bottom: 1px solid var(--cl-text); 
+    color: var(--cl-text); 
     text-decoration: none;
 }
 
@@ -30,11 +45,6 @@ article {
 
 .visible {
     display: block;
-}
-
-.disable {
-    color: #AFAFAF;
-    border-bottom: 0px solid #AFAFAF; 
 }
 
 #licence {
@@ -52,7 +62,6 @@ footer {
 
 .swiper {
     width: 100%;
-    
 }
 
 nav {
@@ -66,7 +75,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #1E90FF;
+    color: var(--cl-highlight);
 }
 
 .spacer {
