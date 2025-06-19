@@ -1,412 +1,364 @@
-<!DOCTYPE html>
-<html lang="cs">
-   <head>
-      <title>Karel Hácha-Pical</title>
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      <meta name="description" content="Neprůstřelné verše.">
-      <meta name="author" content="Karel Hácha-Pical">
-      <meta name="robots" content="index, follow">
-      
-      <link rel="stylesheet" href="swiper.css"/>
-      <script src="swiper.js"></script>
-
-      <link rel="stylesheet" href="default.css"/>
-      <script src="default.js"></script>
-   </head>
+<!doctype html><html lang="cs">
+<head>
+<title>Karel Hácha-Pical</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Neprůstřelné verše.">
+<meta name="author" content="Karel Hácha-Pical">
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="swiper.css">
+<script src="swiper.js"></script>
+<link rel="stylesheet" href="default.css">
+<script src="default.js"></script>
+</head>
 <body>
-
-<script> setTheme(); </script>
-
+<script>setTheme()</script>
 <header>
-    <nav>
-    <a class="theme" href="#" onclick="event.preventDefault();switchTheme();">◑</a>
-    </nav>
-    <h1>Karel Hácha-Pical</h1>
-    <h2>Neprůstřelné verše</h2>
-
-    <nav>
-        <a id="prev" href="#" onclick="event.preventDefault();prev()">❮</a>    
-        <span class="spacer"> </span>
-        <a id="next" href="#" onclick="event.preventDefault();next()">❯</a>
-    </nav>
+<nav>
+<a class="theme" href="#" onclick=event.preventDefault(),switchTheme()>◑</a>
+</nav>
+<h1>Karel Hácha-Pical</h1>
+<h2>Neprůstřelné verše</h2>
+<nav>
+<a id="prev" href="#" onclick=event.preventDefault(),prev()>❮</a>
+<span class="spacer">
+<span id="pginfo"> </span>
+</span>
+<a id="next" href="#" onclick=event.preventDefault(),next()>❯</a>
+</nav>
 </header>
-
 <main id=main>
-    <div class="swiper">
-        <div class="swiper-wrapper">
-        
-            <div class="swiper-slide">
-            <h4>duševní</h4>    
-            nad lesem a vodami<br>
-            letí duše svobodná<br>
-            už nevadí mi doktoři<br>
-            hypertenze ani dna<br>
-            </div>
-
-            <div class="swiper-slide">
-            <h4>edukační</h4>
-            že jsem blbej diabetik<br>
-            nadávat mi netřeba<br>
-            v koutě budu tiše sedět<br>
-            bez cukru a bez chleba<br>
-            <br>
-            a prej že můžu oslepnout<br>
-            když nebudu poslouchat<br>
-            kořalku dál budu chlastat<br>
-            tučný maso pořád žrát<br>
-            <br>
-            tyhle kecy jsou mi jedno<br>
-            nenechám se vytočit<br>
-            nasadím si z plastu nohu<br>
-            než se půjdu vymočit<br>
-            </div>
-           
-            <div class="swiper-slide">
-            <h4>o bolesti</h4>
-            před královstvím lepku<br>
-            upadl jsem na hubu<br>
-            a narazil si lebku<br>
-            už tam chodit nebudu<br> 
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>odběrová</h4>
-            draslíku že nemám moc<br>
-            sdělila mi sestra suše<br>
-            prej to může ovlivnit<br>
-            těla stav a taky duše<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>rezignační</h4>
-            modlím se za toho uprostřed<br>
-            na jiném už mi nezáleží<br>
-            ono je lepší nevědet<br>
-            o co tu vlastně běží<br>
-            </div>
-
-            <div class="swiper-slide">
-            <h4>varování před poezií</h4>
-            jen malá chvilka poezie<br>
-            ta dokáže ti zkazit den<br>
-            jednou jsem tak viděl chlapa<br>
-            jak potom blije z okna ven<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>diabetická</h4>
-            jednou v Tescu plný stesku<br>
-            po cukrové polevě<br>
-            uronil jsem slzy dvě<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>chvála</h4>
-            blahoslavena budiž hnědá mast<br>
-            však víte moc dobře která<br>
-            ta kterou natřeš se zítra<br>
-            co ses s ní namazal včera<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>medikační</h4>
-            beru prášky proti smrti<br>
-            ne že bych se konce bál<br>
-            mám jich hodně do zásoby<br>
-            sám jsem si je předepsal<br>
-            jsou jich ještě mraky<br>
-            smrt je bere taky<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>o kopání</h4>
-            že prý je to v pořádku<br>
-            sám se kopat do zadku<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>tíha rozhodnutí</h4>
-            nasadit si černou kuklu<br>
-            zkoušet dveře vylomit<br>
-            otevřu si radši klíčem<br>
-            nebudu se přece dřít<br>
-            nebo aspoň šperhákem<br>
-            až pak půjdu zase ven<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>divadelní</h4>
-            na zkoušku dneska přišel jsem<br>
-            s pěkně velikým kašpárkem<br>
-            nevím co mě to napadlo<br>
-            málem jsem zbořil divadlo<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>chovatelská</h4>
-            měl jsem jednou doma šneka<br>
-            pravda budiž odhalena<br>
-            když jsem se mu nevěnoval<br>
-            tak vzal nohu na ramena<br>
-            <br>
-            daleko však neutekl<br>
-            hnedle jsem ho načapal<br>
-            zaseknul se pode dveřma<br>
-            když se snažil zdrhnout v dál<br>
-            <br>
-            nebudu se na něj zlobit<br>
-            je to blbej hermafrodit<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>brněnská dopravní</h4>
-            na francouzské přejet ježka<br>
-            to je teda pěkná blbost<br>
-            s tím budeš žít jenom ztěžka<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>sebekritická</h4>
-            až umřu nikam nepůjdu<br>
-            nikde není místo pro mě<br>
-            na nebe že nemám nárok<br>
-            a v pekle zase zhasly ohně<br>
-            <br>
-            do nebe jít nemůžu<br>
-            že mi totiž není rovno<br>
-            protože jsem pěkně blbej<br>
-            a to je všechno<br>
-            tečka<br>
-            hovno<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>vysvětlující</h4>
-            blbec nejde do nebe<br>
-            to je přeci nasnadě<br>
-            jinak by to tam pak bylo<br>
-            jako někde ve vládě<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>větná</h4>
-            vyhýbám se interpunkci<br>
-            nebudu se přece srát<br>
-            s tečkama a čárkama<br>
-            na to se mám příliš rád<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>vizuální styl</h4>
-            dochází mi skoro dech<br>
-            když vidím tahle nová loga<br>
-            a marně pro to hledám rým<br>
-            možná se jen snaží zakrýt<br>
-            že je všechno při starým<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>po pravdě</h4>
-            povím ti teď jeden příběh<br>
-            co nebude ti po chuti<br>
-            ve škarpě jsem pravdu viděl<br>
-            ležela tam bez hnutí<br>
-            <br>
-            zkoušel jsem hned volat pomoc<br>
-            nikdo se však neozval<br>
-            a tak tam ta pravda leží<br>
-            od té doby pořád dál<br>
-            <br>
-            snad plakat pro to nebudeš<br>
-            pořád ještě žije lež<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>dopravní výluka</h4>
-            autobus na hřbitov nejede<br>
-            budu tam do kopce muset pěšky<br>
-            v cíli pak na konci vlastních sil<br>
-            skácím se u nebožky<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>proč</h4>
-            zjevilo se zčistajasna<br>
-            proč pořád ještě nemáš dost<br>
-            zářící tu nápis hlásá<br>
-            že zvítězila chamtivost<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>o zubu</h4>
-            to jsou jenom pomluvy<br>
-            že nepoznám krásu<br>
-            jak archeolog uznávám<br>
-            jedině zub času<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>magická</h4>
-            kdo to mohl být se neví<br>
-            byls to možná právě ty<br>
-            chlap co vysral sněhuláka<br>
-            a dal mu jméno yetti<br>
-            <br>
-            tohle bych chtěl umět taky<br>
-            to se jen tak nevidí<br>
-            takovouto schopností<br>
-            se odlišuješ od lidí<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>užít dne</h4>
-            kde svěží vítr čechrá vlas<br>
-            jenom malou chvilku<br>
-            tam usednout na větev<br>
-            a vytáhnout pilku<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>o volbě povolání</h4>
-            jeden bude kosmonautem<br>
-            a druhý bude hasit<br>
-            třetí jako pornoherec<br>
-            péro bude tasit<br>
-            <br>
-            jen pepíček se v koutě směje<br>
-            jako nikdo druhý<br>
-            bude jako táta zubař<br>
-            vrtat zdravý zuby<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>nádražní</h4>
-            na židenickým nádraží<br>
-            se někdo vyzul z bot<br>
-            jenže toho bylo více<br>
-            vysral se pak do krabice<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>o focení</h4>
-            znám jednoduchou metodu<br>
-            co zajistí mi vždycky úspěch<br>
-            že na každé ze všech fotek<br>
-            roztáhnul jsem v křeči úsměv<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>monofobická</h4>
-            abych neměl jenom strach<br>
-            pořád se jen nebál<br>
-            zakřičel jsem nahlas vtip<br>
-            a sám jsem se mu zasmál<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>oběti zábavy</h4>
-            ty co se tu nebaví<br>
-            a nechce se jim vracet<br>
-            tak ty najdeš za barákem<br>
-            jak tam budou zvracet<br>
-            <br>
-            v jedné řadě s nima stojím<br>
-            nevím zčista co teď s tím<br>
-            abych taky něco vrhnul<br>
-            vrhnu apoň vlastní stín<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>elon</h4>
-            být světovej génius<br>
-            jsou vážně hrozný muka<br>
-            od samýho hajlování<br>
-            tě večer bolí ruka<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>dar</h4>
-            než bych dostal k vánocům<br>
-            darem seskok padákem<br>
-            vyskočil jsem v převleku<br>
-            jako santa oknem ven<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>nepokoje na pokoji</h4>
-            bílí a bohatí<br>
-            udělali bordel<br>
-            vysrali se do postele<br>
-            zapálili hotel<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>seznam</h4>
-            na hlavní stránce seznamu<br>
-            tam vyhřezly sračky<br>
-            asi se jim pomíchaly<br>
-            html značky<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>hnus</h4>
-            tady je to pěkně hnusný<br>
-            mysleli si někteří<br>
-            když vystoupili z vlaku<br>
-            na židenickým nádraží<br>
-            <br>
-            jestli chcete vidět hnus<br>
-            to vám teda povím<br>
-            tak jste měli vystoupit<br>
-            rovnou na tom hlavním<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>podmořská</h4>
-            mezi plejtváky se v řìji nepleť<br>
-            mohli by ti při tom tření<br>
-            nechtě<br>
-            odřít přirození<br>
-            </div>
-            
-            <div class="swiper-slide">
-            <h4>karel</h4>
-            karel beží po chodbě<br>
-            tam kde mu to přijde vhod<br>
-            a mocně ho to přitahuje<br>
-            snad to není na záchod<br>
-            </div>
-
-            <div class="swiper-slide">
-            <h4>tři důchodci</h4>
-            u pokladny frontu stojí<br>
-            tři důchodci růžolící<br>
-            a divně se usmívají<br>
-            asi budou po mrtvici<br>
-            </div>
-                
-            <div class="swiper-slide">
-            <h4>o motivaci</h4>
-            ďábel ten má svoje plány<br>
-            motivaci nehezkou<br>
-            nebylo to nečekaný<br>
-            když převlíkl se za ženskou<br>
-            </div>
-            
-        </div>
-    </div>
+<div class="swiper">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<h4>duševní</h4>
+nad lesem a vodami<br>
+letí duše svobodná<br>
+už nevadí mi doktoři<br>
+hypertenze ani dna<br>
+</div>
+<div class="swiper-slide">
+<h4>edukační</h4>
+že jsem blbej diabetik<br>
+nadávat mi netřeba<br>
+v koutě budu tiše sedět<br>
+bez cukru a bez chleba<br>
+<br>
+a prej že můžu oslepnout<br>
+když nebudu poslouchat<br>
+kořalku dál budu chlastat<br>
+tučný maso pořád žrát<br>
+<br>
+tyhle kecy jsou mi jedno<br>
+nenechám se vytočit<br>
+nasadím si z plastu nohu<br>
+než se půjdu vymočit<br>
+</div>
+<div class="swiper-slide">
+<h4>o bolesti</h4>
+před královstvím lepku<br>
+upadl jsem na hubu<br>
+a narazil si lebku<br>
+už tam chodit nebudu<br>
+</div>
+<div class="swiper-slide">
+<h4>odběrová</h4>
+draslíku že nemám moc<br>
+sdělila mi sestra suše<br>
+prej to může ovlivnit<br>
+těla stav a taky duše<br>
+</div>
+<div class="swiper-slide">
+<h4>rezignační</h4>
+modlím se za toho uprostřed<br>
+na jiném už mi nezáleží<br>
+ono je lepší nevědet<br>
+o co tu vlastně běží<br>
+</div>
+<div class="swiper-slide">
+<h4>varování před poezií</h4>
+jen malá chvilka poezie<br>
+ta dokáže ti zkazit den<br>
+jednou jsem tak viděl chlapa<br>
+jak potom blije z okna ven<br>
+</div>
+<div class="swiper-slide">
+<h4>diabetická</h4>
+jednou v Tescu plný stesku<br>
+po cukrové polevě<br>
+uronil jsem slzy dvě<br>
+</div>
+<div class="swiper-slide">
+<h4>chvála</h4>
+blahoslavena budiž hnědá mast<br>
+však víte moc dobře která<br>
+ta kterou natřeš se zítra<br>
+co ses s ní namazal včera<br>
+</div>
+<div class="swiper-slide">
+<h4>medikační</h4>
+beru prášky proti smrti<br>
+ne že bych se konce bál<br>
+mám jich hodně do zásoby<br>
+sám jsem si je předepsal<br>
+jsou jich ještě mraky<br>
+smrt je bere taky<br>
+</div>
+<div class="swiper-slide">
+<h4>o kopání</h4>
+že prý je to v pořádku<br>
+sám se kopat do zadku<br>
+</div>
+<div class="swiper-slide">
+<h4>tíha rozhodnutí</h4>
+nasadit si černou kuklu<br>
+zkoušet dveře vylomit<br>
+otevřu si radši klíčem<br>
+nebudu se přece dřít<br>
+nebo aspoň šperhákem<br>
+až pak půjdu zase ven<br>
+</div>
+<div class="swiper-slide">
+<h4>divadelní</h4>
+na zkoušku dneska přišel jsem<br>
+s pěkně velikým kašpárkem<br>
+nevím co mě to napadlo<br>
+málem jsem zbořil divadlo<br>
+</div>
+<div class="swiper-slide">
+<h4>chovatelská</h4>
+měl jsem jednou doma šneka<br>
+pravda budiž odhalena<br>
+když jsem se mu nevěnoval<br>
+tak vzal nohu na ramena<br>
+<br>
+daleko však neutekl<br>
+hnedle jsem ho načapal<br>
+zaseknul se pode dveřma<br>
+když se snažil zdrhnout v dál<br>
+<br>
+nebudu se na něj zlobit<br>
+je to blbej hermafrodit<br>
+</div>
+<div class="swiper-slide">
+<h4>brněnská dopravní</h4>
+na francouzské přejet ježka<br>
+to je teda pěkná blbost<br>
+s tím budeš žít jenom ztěžka<br>
+</div>
+<div class="swiper-slide">
+<h4>sebekritická</h4>
+až umřu nikam nepůjdu<br>
+nikde není místo pro mě<br>
+na nebe že nemám nárok<br>
+a v pekle zase zhasly ohně<br>
+<br>
+do nebe jít nemůžu<br>
+že mi totiž není rovno<br>
+protože jsem pěkně blbej<br>
+a to je všechno<br>
+tečka<br>
+hovno<br>
+</div>
+<div class="swiper-slide">
+<h4>vysvětlující</h4>
+blbec nejde do nebe<br>
+to je přeci nasnadě<br>
+jinak by to tam pak bylo<br>
+jako někde ve vládě<br>
+</div>
+<div class="swiper-slide">
+<h4>větná</h4>
+vyhýbám se interpunkci<br>
+nebudu se přece srát<br>
+s tečkama a čárkama<br>
+na to se mám příliš rád<br>
+</div>
+<div class="swiper-slide">
+<h4>vizuální styl</h4>
+dochází mi skoro dech<br>
+když vidím tahle nová loga<br>
+a marně pro to hledám rým<br>
+možná se jen snaží zakrýt<br>
+že je všechno při starým<br>
+</div>
+<div class="swiper-slide">
+<h4>po pravdě</h4>
+povím ti teď jeden příběh<br>
+co nebude ti po chuti<br>
+ve škarpě jsem pravdu viděl<br>
+ležela tam bez hnutí<br>
+<br>
+zkoušel jsem hned volat pomoc<br>
+nikdo se však neozval<br>
+a tak tam ta pravda leží<br>
+od té doby pořád dál<br>
+<br>
+snad plakat pro to nebudeš<br>
+pořád ještě žije lež<br>
+</div>
+<div class="swiper-slide">
+<h4>dopravní výluka</h4>
+autobus na hřbitov nejede<br>
+budu tam do kopce muset pěšky<br>
+v cíli pak na konci vlastních sil<br>
+skácím se u nebožky<br>
+</div>
+<div class="swiper-slide">
+<h4>proč</h4>
+zjevilo se zčistajasna<br>
+proč pořád ještě nemáš dost<br>
+zářící tu nápis hlásá<br>
+že zvítězila chamtivost<br>
+</div>
+<div class="swiper-slide">
+<h4>o zubu</h4>
+to jsou jenom pomluvy<br>
+že nepoznám krásu<br>
+jak archeolog uznávám<br>
+jedině zub času<br>
+</div>
+<div class="swiper-slide">
+<h4>magická</h4>
+kdo to mohl být se neví<br>
+byls to možná právě ty<br>
+chlap co vysral sněhuláka<br>
+a dal mu jméno yetti<br>
+<br>
+tohle bych chtěl umět taky<br>
+to se jen tak nevidí<br>
+takovouto schopností<br>
+se odlišuješ od lidí<br>
+</div>
+<div class="swiper-slide">
+<h4>užít dne</h4>
+kde svěží vítr čechrá vlas<br>
+jenom malou chvilku<br>
+tam usednout na větev<br>
+a vytáhnout pilku<br>
+</div>
+<div class="swiper-slide">
+<h4>o volbě povolání</h4>
+jeden bude kosmonautem<br>
+a druhý bude hasit<br>
+třetí jako pornoherec<br>
+péro bude tasit<br>
+<br>
+jen pepíček se v koutě směje<br>
+jako nikdo druhý<br>
+bude jako táta zubař<br>
+vrtat zdravý zuby<br>
+</div>
+<div class="swiper-slide">
+<h4>nádražní</h4>
+na židenickým nádraží<br>
+se někdo vyzul z bot<br>
+jenže toho bylo více<br>
+vysral se pak do krabice<br>
+</div>
+<div class="swiper-slide">
+<h4>o focení</h4>
+znám jednoduchou metodu<br>
+co zajistí mi vždycky úspěch<br>
+že na každé ze všech fotek<br>
+roztáhnul jsem v křeči úsměv<br>
+</div>
+<div class="swiper-slide">
+<h4>monofobická</h4>
+abych neměl jenom strach<br>
+pořád se jen nebál<br>
+zakřičel jsem nahlas vtip<br>
+a sám jsem se mu zasmál<br>
+</div>
+<div class="swiper-slide">
+<h4>oběti zábavy</h4>
+ty co se tu nebaví<br>
+a nechce se jim vracet<br>
+tak ty najdeš za barákem<br>
+jak tam budou zvracet<br>
+<br>
+v jedné řadě s nima stojím<br>
+nevím zčista co teď s tím<br>
+abych taky něco vrhnul<br>
+vrhnu apoň vlastní stín<br>
+</div>
+<div class="swiper-slide">
+<h4>elon</h4>
+být světovej génius<br>
+jsou vážně hrozný muka<br>
+od samýho hajlování<br>
+tě večer bolí ruka<br>
+</div>
+<div class="swiper-slide">
+<h4>dar</h4>
+než bych dostal k vánocům<br>
+darem seskok padákem<br>
+vyskočil jsem v převleku<br>
+jako santa oknem ven<br>
+</div>
+<div class="swiper-slide">
+<h4>nepokoje na pokoji</h4>
+bílí a bohatí<br>
+udělali bordel<br>
+vysrali se do postele<br>
+zapálili hotel<br>
+</div>
+<div class="swiper-slide">
+<h4>seznam</h4>
+na hlavní stránce seznamu<br>
+tam vyhřezly sračky<br>
+asi se jim pomíchaly<br>
+html značky<br>
+</div>
+<div class="swiper-slide">
+<h4>hnus</h4>
+tady je to pěkně hnusný<br>
+mysleli si někteří<br>
+když vystoupili z vlaku<br>
+na židenickým nádraží<br>
+<br>
+jestli chcete vidět hnus<br>
+to vám teda povím<br>
+tak jste měli vystoupit<br>
+rovnou na tom hlavním<br>
+</div>
+<div class="swiper-slide">
+<h4>podmořská</h4>
+mezi plejtváky se v řìji nepleť<br>
+mohli by ti při tom tření<br>
+nechtě<br>
+odřít přirození<br>
+</div>
+<div class="swiper-slide">
+<h4>karel</h4>
+karel beží po chodbě<br>
+tam kde mu to přijde vhod<br>
+a mocně ho to přitahuje<br>
+snad to není na záchod<br>
+</div>
+<div class="swiper-slide">
+<h4>tři důchodci</h4>
+u pokladny frontu stojí<br>
+tři důchodci růžolící<br>
+a divně se usmívají<br>
+asi budou po mrtvici<br>
+</div>
+<div class="swiper-slide">
+<h4>o motivaci</h4>
+ďábel ten má svoje plány<br>
+motivaci nehezkou<br>
+nebylo to nečekaný<br>
+když převlíkl se za ženskou<br>
+</div>
+</div>
+</div>
 </main>
-    
 <footer>
-    <br>
-    <br>
-    <article id=licence>
-    Obsah stránky je šířen pod licencí <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.cs" target="_blank">Creative Commons CC BY-NC-ND 4.0</a>
-    </article>
+<br>
+<br>
+<article id=licence>
+Obsah stránky je šířen pod licencí <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.cs" target="_blank">Creative Commons CC BY-NC-ND 4.0</a>
+</article>
 </footer>
-
 </body>
 </html>
-
-
